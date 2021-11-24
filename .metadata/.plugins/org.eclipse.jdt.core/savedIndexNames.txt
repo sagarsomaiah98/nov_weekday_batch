@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\JANBASK\NOV WEEKDAY BATCH\.metadata\.plugins\org.eclipse.jdt.core
+3488811310.index
+1323721738.index

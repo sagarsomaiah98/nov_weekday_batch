@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Addition&apos; to &apos;Math_Operators&apos;&#x0D;&#x0A;- Original project: &apos;23_NOV_JAVA_INTRO&apos;&#x0D;&#x0A;- Original element: &apos;Addition&apos;&#x0D;&#x0A;- Renamed element: &apos;Math_Operators&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Addition&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Addition.java[Addition" matchStrategy="1" name="Math_Operators" qualified="false" references="true" similarDeclarations="false" stamp="1637722268085" textual="false" version="1.0"/>
+</session>
