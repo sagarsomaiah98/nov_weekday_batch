@@ -4,7 +4,7 @@ public class Switch_Statement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int marks=0;
+		int marks=10;
 		
 		switch(marks) {  /// switch (10)
 		
@@ -12,7 +12,7 @@ public class Switch_Statement {
 		System.out.println("not pass");
 		break;
 		
-		case 20:
+		case 5:
 		System.out.println("pass");
 		break;
 		

@@ -11,6 +11,7 @@ public class StringComparision {
 		String value3="SAM";
 		
 		System.out.println(value1==value2);
+		System.out.println(value1==value3);
 		System.out.println(value1.equals(value2));
 		System.out.println(value1.equals(value3));
 		System.out.println(value1.equalsIgnoreCase(value3));

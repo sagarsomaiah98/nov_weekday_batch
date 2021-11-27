@@ -6,18 +6,17 @@ public class Arithmetic_Operators {
 		int a=10;
 		int b=3;
 		
-		System.out.println(a+b);// Addition
-		System.out.println(a-b); //Subtraction
-		System.out.println(a*b);// Multiplication
-		System.out.println(a/b); //Division -divisor
-		System.out.println(a%b); // Modules-remainder
-		
+		/*
+		 * System.out.println(a+b);// Addition System.out.println(a-b); //Subtraction
+		 * System.out.println(a*b);// Multiplication System.out.println(a/b); //Division
+		 * -divisor System.out.println(a%b); // Modules-remainder
+		 */		
 		a++;
 		System.out.println(a); // Increment
 		b++;
 		System.out.println(b); //Increment
 		a--;
-		System.out.println(a);//Decrement
+System.out.println(a);//Decrement
 		b--;
 		
 		

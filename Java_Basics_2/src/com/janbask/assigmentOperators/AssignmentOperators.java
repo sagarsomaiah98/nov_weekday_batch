@@ -8,6 +8,9 @@ public class AssignmentOperators {
 		int a=100;
 		System.out.println(a); // 100
 		a+=50;  // 100 + 50
+		//or 
+		//a=a+50;
+		
 		System.out.println(a);
 		a-=30;  // 150 - 30
 		System.out.println(a);
