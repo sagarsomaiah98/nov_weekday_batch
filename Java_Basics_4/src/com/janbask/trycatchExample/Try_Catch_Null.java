@@ -12,12 +12,13 @@ public class Try_Catch_Null {
 		catch(Exception v)
 		
 		{
-			v.printStackTrace();
+		  v.printStackTrace();
 			
 			System.out.println(" cannot divide 10 by 0");
 			
 		}
 		
+		System.out.println("rest of the code");
 	}
 
 }

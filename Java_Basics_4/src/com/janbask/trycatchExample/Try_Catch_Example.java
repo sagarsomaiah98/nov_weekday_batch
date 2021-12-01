@@ -11,18 +11,19 @@ public class Try_Catch_Example {
 		stud[1]="steve";
 		stud[2]="john";
 		
-		try {
-		System.out.println(stud[2]);
-		
-		}
-		catch(Exception e1) {
-			
-			//e1.printStackTrace();
-			
-			System.out.println(" in the catch block");
-		}
-		
-		System.out.println(stud[1]);
+	try {
+		System.out.println(stud[10]);
+	
 	}
+	
+	catch(Exception e) {
+		e.printStackTrace();
+		
+		System.out.println("failed to execute");
+	}
+	
+	
+	System.out.println(" end of the program");
 
+	}
 }
