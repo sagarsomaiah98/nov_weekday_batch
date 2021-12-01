@@ -3,7 +3,7 @@ package com.janbask.returnExamples;
 public class String_Return_Type {
 	
 	
-	public static String String_function(String name) {
+	public  String String_function() {
 		
 		//name="WELCOME TO";
 		
@@ -16,9 +16,9 @@ public class String_Return_Type {
 		
 		color= color+place;// RedUSA
 		job= place+gender;// USAmale
-		place= job+color; // USAmaleRedUSA
+		place= job+color; // TesterRedUSA
 		
-		place =name+color;//WELCOME TORedUSA
+		
 		
 		
 		
@@ -34,14 +34,11 @@ public class String_Return_Type {
 
 	public static void main(String[] args) {
 		
-		     
-		//W-0 E-1 L-2 C-3 
-		//System.out.println(String_function("WELCOME TO "));
+		String_Return_Type jack= new String_Return_Type();
 		
-		String request= "Leave Request (2021-04-20 to 2021-04-22) Manali Kulkarni";
+		String a=jack.String_function();
+		System.out.println(a);
 		
-		String start_date=request.substring(15,25);
-		System.out.println(start_date);
 		
 		
 		

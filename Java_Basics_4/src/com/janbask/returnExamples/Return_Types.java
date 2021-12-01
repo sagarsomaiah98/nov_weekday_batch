@@ -12,11 +12,10 @@ public class Return_Types {
 		
 		//return name;
 		
-		age=age+10;// 
+		age=age+10;//
 		
-		age = age*0;
 		
-		age= age-2;
+		
 		
 		
 		
@@ -30,11 +29,25 @@ public class Return_Types {
 	
 
 	public static void main(String[] args) {
-		Return_Types r = new Return_Types();
+		
+		//clasname objectname= new classname
+		
+		Return_Types marriana = new Return_Types();
+		
+		int a=marriana.print_age(60);
+		
+		if(a>60)
+			
+			System.out.println("Senior citizen");
+		else
+			
+			System.out.println("not a senior citizen");
 		
 		
 		
-		System.out.println(r.print_age(30));
+		
+		
+		
 		
 
 	}

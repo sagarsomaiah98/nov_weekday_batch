@@ -6,7 +6,7 @@ public class Try_Catch_Null {
 
 		try {
 			
-			int h=10/0;
+			int h=10/1;
 			
 		}
 		catch(Exception v)
