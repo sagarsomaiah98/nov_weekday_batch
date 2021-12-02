@@ -2,19 +2,31 @@ package com.janbask.inheritanceExample;
 
 public class Parent {
 	
-	public void bike() {
+	
+	public void home() {
 		
-		System.out.println(" parent owns a bike");
+		System.out.println("Parent owns home");
 	}
 	
-	public void house() {
+	
+	public void factory() {
 		
-		System.out.println(" parent owns a house");
+		System.out.println("Parent owns factory");
 	}
-
+	
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		
+		//classname objectname= new classname
+		
+		
+		Parent p = new Parent();
+		p.home();
+		p.factory();
+		
+		
+		
 	}
 
 }

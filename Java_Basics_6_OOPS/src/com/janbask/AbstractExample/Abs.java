@@ -2,6 +2,11 @@ package com.janbask.AbstractExample;
 
 public abstract class Abs {
 	
+	public Abs()
+	{
+		
+	}
+	
 	public abstract void method1();//unimplemented
 	
 	public void method2() {//implemented
@@ -10,6 +15,9 @@ public abstract class Abs {
 	}
 
 	public static void main(String[] args) {
+		
+		
+		
 		
 
 	}

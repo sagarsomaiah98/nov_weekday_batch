@@ -1,5 +1,6 @@
-package com.janbask.methodOverloading;
-public class Method_Overloading {
+package com.janbask.interfaceExample;
+
+public class CITIBank {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

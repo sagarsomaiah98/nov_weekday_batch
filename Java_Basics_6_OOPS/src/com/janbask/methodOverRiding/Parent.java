@@ -1,15 +1,30 @@
 package com.janbask.methodOverRiding;
+
 public class Parent {
 	
-	public void method1() {
+	
+	public void home() {
 		
-		System.out.println("method 1");
+		System.out.println("Parent owns home");
 	}
-	public void method2() {
+	
+	
+	public void factory() {
 		
-		System.out.println("method 2");
+		System.out.println("Parent owns factory");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		//classname objectname= new classname
+		
+		
+	
+		
+		
 		
 	}
 
-	
 }
