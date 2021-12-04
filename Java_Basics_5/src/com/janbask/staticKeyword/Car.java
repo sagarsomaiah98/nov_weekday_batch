@@ -2,15 +2,15 @@ package com.janbask.staticKeyword;
 
 public class Car {
 	
-	public void method1() {//non static method
+	public static void method1() {//non static method
 		
 		System.out.println("method1- non static method");
 	}
 	
 	
-	public  static void method2() {
+	public static   void method2() {
 		
-		System.out.println("method2 - static method");
+		System.out.println("method2 - non static method");
 	}
 	
 	public static void main(String[] args) {
@@ -18,12 +18,11 @@ public class Car {
 		//create object of class
 		
 		
-	    
+	  
+		
+		method1();
 		
 		method2();
-		
-		Car c = new Car();
-		c.method1();
 		
 	}
 
