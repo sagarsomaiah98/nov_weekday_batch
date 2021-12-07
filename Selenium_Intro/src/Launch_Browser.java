@@ -12,7 +12,7 @@ public class Launch_Browser {
 		//launch the chrome browser
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\JANBASK\\NOV WEEKDAY BATCH\\chromedriver.exe");
-		//WebDriver d= new ChromeDriver();
+		WebDriver d= new ChromeDriver();
 		
 		//launch the firefox browser
 		

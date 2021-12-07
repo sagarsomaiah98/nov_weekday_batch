@@ -1,5 +1,6 @@
+package com.sel.sauce;
 
-public class Different_Attribute_Values {
+public class Get_all_Links {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
