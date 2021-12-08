@@ -13,11 +13,11 @@ public class Different_Elements {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://the-internet.herokuapp.com/checkboxes");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
 		
 		driver.findElement(By.xpath("//input[1]")).click();
-System.out.println("done");
+      System.out.println("done");
 	}
 
 }
