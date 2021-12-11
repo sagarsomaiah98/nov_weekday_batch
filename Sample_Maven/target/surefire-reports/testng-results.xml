@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="36871" started-at="2021-11-10T20:17:02 IST" finished-at="2021-11-10T20:17:39 IST">
+  <suite name="Surefire suite" duration-ms="36134" started-at="2021-12-11T08:26:58 IST" finished-at="2021-12-11T08:27:35 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="36871" started-at="2021-11-10T20:17:02 IST" finished-at="2021-11-10T20:17:39 IST">
+    <test name="Surefire test" duration-ms="36134" started-at="2021-12-11T08:26:58 IST" finished-at="2021-12-11T08:27:35 IST">
       <class name="AddToCartTest">
-        <test-method status="PASS" signature="addTocart()[pri:0, instance:AddToCartTest@3b0143d3]" name="addTocart" duration-ms="11672" started-at="2021-11-10T20:17:02 IST" finished-at="2021-11-10T20:17:14 IST">
+        <test-method status="PASS" signature="addTocart()[pri:0, instance:AddToCartTest@3b0143d3]" name="addTocart" duration-ms="11257" started-at="2021-12-11T08:26:58 IST" finished-at="2021-12-11T08:27:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTocart -->
       </class> <!-- AddToCartTest -->
       <class name="LoginTest">
-        <test-method status="PASS" signature="logintest()[pri:0, instance:LoginTest@4f970963]" name="logintest" duration-ms="25147" started-at="2021-11-10T20:17:14 IST" finished-at="2021-11-10T20:17:39 IST">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:LoginTest@4f970963]" name="logintest" duration-ms="24832" started-at="2021-12-11T08:27:10 IST" finished-at="2021-12-11T08:27:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
