@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+    <testcase classname="Login to application" name="Login" time="0">
+        <skipped><![CDATA[Given Launch the browser and enter the url..................................undefined
+When I enter the username "standard_user" and enter the password "secret_sauce".undefined
+Then I click submit.........................................................skipped
+]]></skipped>
+    </testcase>
+</testsuite>
