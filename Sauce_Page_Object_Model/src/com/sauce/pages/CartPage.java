@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 import com.sauce.util.TestBase;
 
 public class CartPage extends TestBase {
-	 public WebElement checkout =driver.findElement(By.xpath("//button[@id='checkout']"));
+	// public WebElement checkout =driver.findElement(By.xpath("//button[@id='checkout']"));
 		
-		public WebElement continue_shopping=driver.findElement(By.xpath(" //button[@id='continue-shopping']"));
+		//public WebElement continue_shopping=driver.findElement(By.xpath(" //button[@id='continue-shopping']"));
 		
 		public WebElement remove_item=driver.findElement(By.xpath("//button[@id='remove-sauce-labs-backpack']"));
 		
@@ -25,9 +25,6 @@ public class CartPage extends TestBase {
 		}
 
 		
-		public void checkout() {
-			
-			checkout.click();
-		} 
+		 
 
 }

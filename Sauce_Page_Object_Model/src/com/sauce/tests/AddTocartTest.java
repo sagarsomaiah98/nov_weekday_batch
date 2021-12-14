@@ -19,7 +19,7 @@ public class AddTocartTest extends TestBase {
 		
 	}
 	
-	@Test
+//	@Test
 	
 	public void addTocart() {
 
