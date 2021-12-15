@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)	
 
 @CucumberOptions(plugin = { "html:target/cucumber-html-report"},
-features={"D:\\JANBASK\\NOV WEEKDAY BATCH\\BDD_Sample\\src\\main\\java\\Features" },
+features={"D:\\JANBASK\\NOV WEEKDAY BATCH\\BDD_Sample\\src\\main\\java\\Features\\Login.feature" },
 glue={"StepDefinition"})
 public class TestRunner {
 
