@@ -1,0 +1,4 @@
+# Created at 2021-11-10T16:57:50.059
+Boot Manifest-JAR contains absolute paths in classpath 'D:\JANBASK\OCT_WEEKDAY_BATCH\BDD_FRAMEWOK\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

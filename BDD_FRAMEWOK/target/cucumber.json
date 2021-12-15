@@ -1,0 +1,334 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login",
+        "description": "",
+        "id": "login-to-application;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6087595300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "LoginStepDefinition.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 563965900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginStepDefinition.i_enter_the_username_and_enter_the_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 728968200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click submit",
+            "match": {
+              "location": "LoginStepDefinition.i_click_submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to application",
+    "description": "",
+    "id": "login-to-application",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "LogOut",
+        "description": "",
+        "id": "logout-of-the-application;logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3648884800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "LoginStepDefinition.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 633583700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginStepDefinition.i_enter_the_username_and_enter_the_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 878498300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click submit",
+            "match": {
+              "location": "LoginStepDefinition.i_click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2482663200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I logOut",
+            "match": {
+              "location": "LogOutStepDefintion.i_logOut()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout of the application",
+    "description": "",
+    "id": "logout-of-the-application",
+    "keyword": "Feature",
+    "uri": "Logout.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Place order",
+        "description": "",
+        "id": "add-to-cart-and-place-order;place-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3704480500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "LoginStepDefinition.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 727405900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginStepDefinition.i_enter_the_username_and_enter_the_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1150560600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click submit",
+            "match": {
+              "location": "LoginStepDefinition.i_click_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add the item to the cart",
+            "match": {
+              "location": "OrderStepDefinition.i_add_the_item_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click cart",
+            "match": {
+              "location": "OrderStepDefinition.i_click_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click checkout",
+            "match": {
+              "location": "OrderStepDefinition.i_click_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the details \"Dean\" \"Win\" \"2134\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dean",
+                  "offset": 21
+                },
+                {
+                  "val": "Win",
+                  "offset": 28
+                },
+                {
+                  "val": "2134",
+                  "offset": 34
+                }
+              ],
+              "location": "OrderStepDefinition.i_enter_the_details(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click continue",
+            "match": {
+              "location": "OrderStepDefinition.i_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify total value",
+            "match": {
+              "location": "OrderStepDefinition.i_verify_total_value()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click Finish",
+            "match": {
+              "location": "OrderStepDefinition.i_click_Finish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify the order",
+            "match": {
+              "location": "OrderStepDefinition.i_verify_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I navigate to home page",
+            "match": {
+              "location": "OrderStepDefinition.i_navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart and Place Order",
+    "description": "",
+    "id": "add-to-cart-and-place-order",
+    "keyword": "Feature",
+    "uri": "PlaceOrder.feature"
+  }
+]

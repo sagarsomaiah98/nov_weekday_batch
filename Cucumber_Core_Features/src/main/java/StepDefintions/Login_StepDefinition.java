@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -88,6 +89,20 @@ public class Login_StepDefinition {
 	  System.out.println(cart_name);
 	}
 
+	@Given("I am on homepage")
+	public void i_am_on_homepage() {
+	    System.out.println("ALREADY ON HOMEPAGE");
+	}
+
+	@Given("I click logout button")
+	public void i_click_logout_button() {
+	System.out.println("CLICK LOGOUT BUTTON");
+	}
+
+	@Then("i am logged out")
+	public void i_am_logged_out() {
+	   System.out.println("LOGGED OUT");
+	}
 
 
 }

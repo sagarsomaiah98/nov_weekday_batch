@@ -18,4 +18,7 @@
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
 </qualifiedTypeNameHistroy>

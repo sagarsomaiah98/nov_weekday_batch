@@ -1,0 +1,28 @@
+Feature: Login to application
+
+  Scenario: Login                                                                   [90m# Login.feature:2[0m
+    [32mGiven [0m[32mLaunch the browser and enter the url[0m                                      [90m# LoginStepDefinition.launch_the_browser_and_enter_the_url()[0m
+    [32mWhen [0m[32mI enter the username "[0m[32m[1mstandard_user[0m[32m" and enter the password "[0m[32m[1msecret_sauce[0m[32m"[0m [90m# LoginStepDefinition.i_enter_the_username_and_enter_the_password(String,String)[0m
+    [32mThen [0m[32mI click submit[0m                                                             [90m# LoginStepDefinition.i_click_submit()[0m
+Feature: Logout of the application
+
+  Scenario: LogOut                                                                  [90m# Logout.feature:2[0m
+    [32mGiven [0m[32mLaunch the browser and enter the url[0m                                      [90m# LoginStepDefinition.launch_the_browser_and_enter_the_url()[0m
+    [32mWhen [0m[32mI enter the username "[0m[32m[1mstandard_user[0m[32m" and enter the password "[0m[32m[1msecret_sauce[0m[32m"[0m [90m# LoginStepDefinition.i_enter_the_username_and_enter_the_password(String,String)[0m
+    [32mAnd [0m[32mI click submit[0m                                                              [90m# LoginStepDefinition.i_click_submit()[0m
+    [32mThen [0m[32mI logOut[0m                                                                   [90m# LogOutStepDefintion.i_logOut()[0m
+Feature: Add to cart and Place Order
+
+  Scenario: Place order                                                             [90m# PlaceOrder.feature:2[0m
+    [32mGiven [0m[32mLaunch the browser and enter the url[0m                                      [90m# LoginStepDefinition.launch_the_browser_and_enter_the_url()[0m
+    [32mWhen [0m[32mI enter the username "[0m[32m[1mstandard_user[0m[32m" and enter the password "[0m[32m[1msecret_sauce[0m[32m"[0m [90m# LoginStepDefinition.i_enter_the_username_and_enter_the_password(String,String)[0m
+    [32mThen [0m[32mI click submit[0m                                                             [90m# LoginStepDefinition.i_click_submit()[0m
+    [32mWhen [0m[32mI add the item to the cart[0m                                                 [90m# OrderStepDefinition.i_add_the_item_to_the_cart()[0m
+    [32mAnd [0m[32mI click cart[0m                                                                [90m# OrderStepDefinition.i_click_cart()[0m
+    [32mAnd [0m[32mI click checkout[0m                                                            [90m# OrderStepDefinition.i_click_checkout()[0m
+    [32mAnd [0m[32mI enter the details "[0m[32m[1mDean[0m[32m" "[0m[32m[1mWin[0m[32m" "[0m[32m[1m2134[0m[32m"[0m                                     [90m# OrderStepDefinition.i_enter_the_details(String,String,String)[0m
+    [32mAnd [0m[32mI click continue[0m                                                            [90m# OrderStepDefinition.i_click_continue()[0m
+    [32mAnd [0m[32mI verify total value[0m                                                        [90m# OrderStepDefinition.i_verify_total_value()[0m
+    [32mAnd [0m[32mI click Finish[0m                                                              [90m# OrderStepDefinition.i_click_Finish()[0m
+    [32mAnd [0m[32mI verify the order[0m                                                          [90m# OrderStepDefinition.i_verify_the_order()[0m
+    [32mThen [0m[32mI navigate to home page[0m                                                    [90m# OrderStepDefinition.i_navigate_to_home_page()[0m
