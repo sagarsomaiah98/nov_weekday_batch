@@ -33,7 +33,7 @@ public class LoginTest extends TestBase{
 	public void logintest() throws InterruptedException {
 		LoginPage	log= new LoginPage();
 		
-		log.loginPage("sagarseleniumstl@gmail.com", "Sagarsomaiah");
+		log.loginPage("sagarseleniumstl@gmail.com", "xxxxxx");
 	
 		
 	}

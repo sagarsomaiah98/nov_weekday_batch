@@ -33,7 +33,7 @@ public class ContactsTest extends TestBase{
 		log= new LoginPage();
 		cont= new ContactsPage();
 		
-		log.loginPage("sagarseleniumstl@gmail.com", "Sagarsomaiah");
+		log.loginPage("sagarseleniumstl@gmail.com", "xxx");
 		
 		cont.contactsPage(TestUtil.random_String(), TestUtil.random_String());
 		

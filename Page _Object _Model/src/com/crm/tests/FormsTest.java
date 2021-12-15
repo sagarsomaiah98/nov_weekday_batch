@@ -27,7 +27,7 @@ public class FormsTest extends TestBase{
 		
 		log= new LoginPage();
 		form= new FormsPage();
-		log.loginPage("sagarseleniumstl@gmail.com", "Sagarsomaiah");
+		log.loginPage("sagarseleniumstl@gmail.com", "xxxx");
 		form.formPage();
 		
 		
