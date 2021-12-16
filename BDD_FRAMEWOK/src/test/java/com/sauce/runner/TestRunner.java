@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin = { "html:target/cucumber-html-report",
         "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
         "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml" },
-features={"D:\\JANBASK\\OCT_WEEKDAY_BATCH\\BDD_FRAMEWOK\\src\\main\\java\\Features" },
+features={"Features" },
 glue={"StepDefinition"})
 
 public class TestRunner {

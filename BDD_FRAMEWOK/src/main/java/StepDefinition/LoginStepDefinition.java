@@ -31,6 +31,7 @@ public class LoginStepDefinition extends TestBase {
 	   driver.findElement(By.xpath("//input[@id='login-button']")).click();
 	   
 	   TestUtil.Screenshot();
+	   Thread.sleep(3000);
 	}
 
 

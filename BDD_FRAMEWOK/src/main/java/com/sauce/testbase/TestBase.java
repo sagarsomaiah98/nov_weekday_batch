@@ -22,7 +22,7 @@ public class TestBase {
 	
 	public void initialize() throws IOException {
 		
-FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\CONFIG\\config.properties");
+     FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\CONFIG\\config.properties");
 		
 		prop= new Properties();
 		

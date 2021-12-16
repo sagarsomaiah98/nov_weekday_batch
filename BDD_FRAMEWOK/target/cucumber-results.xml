@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="20.607519">
-    <testcase classname="Login to application" name="Login" time="7.380529">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="27.53458">
+    <testcase classname="Login to application" name="Login" time="8.47321">
         <system-out><![CDATA[Given Launch the browser and enter the url..................................passed
 When I enter the username "standard_user" and enter the password "secret_sauce".passed
 Then I click submit.........................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Logout of the application" name="LogOut" time="7.64363">
+    <testcase classname="Logout of the application" name="LogOut" time="9.119496">
         <system-out><![CDATA[Given Launch the browser and enter the url..................................passed
 When I enter the username "standard_user" and enter the password "secret_sauce".passed
 And I click submit..........................................................passed
 Then I logOut...............................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Add to cart and Place Order" name="Place order" time="5.58336">
+    <testcase classname="Add to cart and Place Order" name="Place order" time="9.941874">
         <system-out><![CDATA[Given Launch the browser and enter the url..................................passed
 When I enter the username "standard_user" and enter the password "secret_sauce".passed
 Then I click submit.........................................................passed

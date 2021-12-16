@@ -5,12 +5,12 @@
       {
         "name": "I navigate to home page",
         "aggregatedDurations": {
-          "average": 0.0000545,
-          "median": 0.0000545
+          "average": 0.0833069,
+          "median": 0.0833069
         },
         "durations": [
           {
-            "duration": 0.0000545,
+            "duration": 0.0833069,
             "location": "PlaceOrder.feature:14"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I click continue",
         "aggregatedDurations": {
-          "average": 0.0000677,
-          "median": 0.0000677
+          "average": 0.0972174,
+          "median": 0.0972174
         },
         "durations": [
           {
-            "duration": 0.0000677,
+            "duration": 0.0972174,
             "location": "PlaceOrder.feature:10"
           }
         ]
@@ -41,20 +41,20 @@
       {
         "name": "I click submit",
         "aggregatedDurations": {
-          "average": 0.919342366,
-          "median": 0.8784983
+          "average": 3.470190566,
+          "median": 3.4933925
         },
         "durations": [
           {
-            "duration": 0.7289682,
+            "duration": 3.4167221,
             "location": "Login.feature:5"
           },
           {
-            "duration": 0.8784983,
+            "duration": 3.4933925,
             "location": "Logout.feature:5"
           },
           {
-            "duration": 1.1505606,
+            "duration": 3.5004571,
             "location": "PlaceOrder.feature:5"
           }
         ]
@@ -67,12 +67,12 @@
       {
         "name": "I add the item to the cart",
         "aggregatedDurations": {
-          "average": 0.0002508,
-          "median": 0.0002508
+          "average": 0.0701431,
+          "median": 0.0701431
         },
         "durations": [
           {
-            "duration": 0.0002508,
+            "duration": 0.0701431,
             "location": "PlaceOrder.feature:6"
           }
         ]
@@ -85,12 +85,12 @@
       {
         "name": "I verify total value",
         "aggregatedDurations": {
-          "average": 0.0000775,
-          "median": 0.0000775
+          "average": 0.0392522,
+          "median": 0.0392522
         },
         "durations": [
           {
-            "duration": 0.0000775,
+            "duration": 0.0392522,
             "location": "PlaceOrder.feature:11"
           }
         ]
@@ -103,12 +103,12 @@
       {
         "name": "I click Finish",
         "aggregatedDurations": {
-          "average": 0.0000714,
-          "median": 0.0000714
+          "average": 0.0710342,
+          "median": 0.0710342
         },
         "durations": [
           {
-            "duration": 0.0000714,
+            "duration": 0.0710342,
             "location": "PlaceOrder.feature:12"
           }
         ]
@@ -121,12 +121,12 @@
       {
         "name": "I verify the order",
         "aggregatedDurations": {
-          "average": 0.0000549,
-          "median": 0.0000549
+          "average": 2.2683335,
+          "median": 2.2683335
         },
         "durations": [
           {
-            "duration": 0.0000549,
+            "duration": 2.2683335,
             "location": "PlaceOrder.feature:13"
           }
         ]
@@ -139,20 +139,20 @@
       {
         "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
         "aggregatedDurations": {
-          "average": 0.641651833,
-          "median": 0.6335837
+          "average": 0.333767233,
+          "median": 0.341221
         },
         "durations": [
           {
-            "duration": 0.5639659,
+            "duration": 0.31425,
             "location": "Login.feature:4"
           },
           {
-            "duration": 0.6335837,
+            "duration": 0.3458307,
             "location": "Logout.feature:4"
           },
           {
-            "duration": 0.7274059,
+            "duration": 0.341221,
             "location": "PlaceOrder.feature:4"
           }
         ]
@@ -165,12 +165,12 @@
       {
         "name": "I enter the details \"Dean\" \"Win\" \"2134\"",
         "aggregatedDurations": {
-          "average": 0.00019,
-          "median": 0.00019
+          "average": 0.2938292,
+          "median": 0.2938292
         },
         "durations": [
           {
-            "duration": 0.00019,
+            "duration": 0.2938292,
             "location": "PlaceOrder.feature:9"
           }
         ]
@@ -183,12 +183,12 @@
       {
         "name": "I logOut",
         "aggregatedDurations": {
-          "average": 2.4826632,
-          "median": 2.4826632
+          "average": 2.3459372,
+          "median": 2.3459372
         },
         "durations": [
           {
-            "duration": 2.4826632,
+            "duration": 2.3459372,
             "location": "Logout.feature:6"
           }
         ]
@@ -201,20 +201,20 @@
       {
         "name": "Launch the browser and enter the url",
         "aggregatedDurations": {
-          "average": 4.4803202,
-          "median": 3.7044805
+          "average": 2.800055933,
+          "median": 2.1910087
         },
         "durations": [
           {
-            "duration": 6.0875953,
+            "duration": 4.018326,
             "location": "Login.feature:3"
           },
           {
-            "duration": 3.6488848,
+            "duration": 2.1908331,
             "location": "Logout.feature:3"
           },
           {
-            "duration": 3.7044805,
+            "duration": 2.1910087,
             "location": "PlaceOrder.feature:3"
           }
         ]
@@ -227,12 +227,12 @@
       {
         "name": "I click cart",
         "aggregatedDurations": {
-          "average": 0.0000916,
-          "median": 0.0000916
+          "average": 0.0957371,
+          "median": 0.0957371
         },
         "durations": [
           {
-            "duration": 0.0000916,
+            "duration": 0.0957371,
             "location": "PlaceOrder.feature:7"
           }
         ]
@@ -245,12 +245,12 @@
       {
         "name": "I click checkout",
         "aggregatedDurations": {
-          "average": 0.0000548,
-          "median": 0.0000548
+          "average": 0.0868481,
+          "median": 0.0868481
         },
         "durations": [
           {
-            "duration": 0.0000548,
+            "duration": 0.0868481,
             "location": "PlaceOrder.feature:8"
           }
         ]

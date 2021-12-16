@@ -1,6 +1,6 @@
 Feature: Login Functionality
 
-@Smoke
+@Min
 Scenario: Verify login
 Given Launch the browser and navigate to application
 When I enter username and password
