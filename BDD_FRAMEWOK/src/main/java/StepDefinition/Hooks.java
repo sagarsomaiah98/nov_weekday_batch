@@ -13,7 +13,7 @@ public class Hooks extends TestBase {
 		
 		driver.quit();
 		
-		driver.manage().timeouts().implicitlyWait(3000)
+		
 	}
 
 }
