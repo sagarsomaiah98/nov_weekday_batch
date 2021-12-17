@@ -5,7 +5,7 @@ public class Read_Data {
 		// TODO Auto-generated method stub
 		
 		
-		Xls_Reader xls = new Xls_Reader("D:\\JANBASK\\JULY_WEEKDAY_BATCH_2\\Data_Parameterization\\src\\TestData\\TESTSUITE.xlsx");
+		Xls_Reader xls = new Xls_Reader("D:\\JANBASK\\NOV WEEKDAY BATCH\\Data_Parameterization\\src\\TestData\\TESTSUITE.xlsx");
 		
 		int row_count= xls.getRowCount("GMAIL");
 		System.out.println(row_count);

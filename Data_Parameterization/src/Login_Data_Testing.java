@@ -8,13 +8,13 @@ public class Login_Data_Testing {
 
 	public static void main(String[] args) throws InterruptedException {
 	
-		Xls_Reader xls= new Xls_Reader("D:\\JANBASK\\BATCH 1\\DataParameterization\\src\\main\\java\\TestData\\SAUCE_LOGIN.xlsx");
+		Xls_Reader xls= new Xls_Reader("D:\\JANBASK\\NOV WEEKDAY BATCH\\Data_Parameterization\\src\\TestData\\SAUCE_LOGIN.xlsx");
 		int total_Rows=xls.getRowCount("SAUCE");
 		//System.out.println(total_Rows);
 		
 		
-		      System.setProperty("webdriver.chrome.driver",
-				  "D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "D:\\JANBASK\\NOV WEEKDAY BATCH\\chromedriver.exe");
+		  
 				 
 		
 		
