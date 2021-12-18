@@ -1,4 +1,6 @@
-import java.util.concurrent.TimeUnit;
+package com.sel.sauce;
+
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -7,19 +9,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
-
-
 public class JS_Ex {
 	
 	@Test
 	public void js_executor() throws InterruptedException {
 		
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "D:\\JANBASK\\NOV WEEKDAY BATCH\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		
-		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://demo.nopcommerce.com/");
 		driver.manage().window().maximize();
 		JavascriptExecutor js= ((JavascriptExecutor)driver);
@@ -74,7 +72,7 @@ public class JS_Ex {
 		//js.executeScript("alert('I am an alert box!')");
 		Thread.sleep(3000);
 		
-		driver.quit();
+	//	driver.quit();
 		
 		
 		

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-18T07:40:46 IST" name="Default suite" finished-at="2021-12-18T07:41:25 IST" duration-ms="39361">
+    <groups>
+    </groups>
+    <test started-at="2021-12-18T07:40:46 IST" name="Default test" finished-at="2021-12-18T07:41:25 IST" duration-ms="39361">
+      <class name="com.sel.sauce.JS_Ex">
+        <test-method signature="js_executor()[pri:0, instance:com.sel.sauce.JS_Ex@34f7cfd9]" started-at="2021-12-18T07:40:46 IST" name="js_executor" finished-at="2021-12-18T07:41:25 IST" duration-ms="39249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- js_executor -->
+      </class> <!-- com.sel.sauce.JS_Ex -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

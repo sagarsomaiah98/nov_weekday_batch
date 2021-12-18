@@ -828,3 +828,4 @@
 2021-12-17 07:06:24,826 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JANBASK\NOV WEEKDAY BATCH\BDD_FRAMEWOK\src\main\resources
 2021-12-17 07:06:24,828 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-12-17 07:06:24,828 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JANBASK\NOV WEEKDAY BATCH\BDD_FRAMEWOK\src\test\resources
+2021-12-18 07:03:09,703 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
